@@ -1,0 +1,306 @@
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/lamb_optimizer_google.py:34: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From run_pretraining_google.py:565: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From run_pretraining_google.py:472: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0318 17:53:24.977823 140435538694528 deprecation_wrapper.py:119] From run_pretraining_google.py:472: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From run_pretraining_google.py:472: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0318 17:53:24.977902 140435538694528 deprecation_wrapper.py:119] From run_pretraining_google.py:472: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:112: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0318 17:53:24.977978 140435538694528 deprecation_wrapper.py:119] From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:112: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:From run_pretraining_google.py:479: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+W0318 17:53:24.978240 140435538694528 deprecation_wrapper.py:119] From run_pretraining_google.py:479: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+WARNING:tensorflow:From run_pretraining_google.py:483: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+W0318 17:53:24.978318 140435538694528 deprecation_wrapper.py:119] From run_pretraining_google.py:483: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+WARNING:tensorflow:From run_pretraining_google.py:485: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0318 17:53:24.978717 140435538694528 deprecation_wrapper.py:119] From run_pretraining_google.py:485: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:*** Input Files ***
+I0318 17:53:24.978777 140435538694528 run_pretraining_google.py:485] *** Input Files ***
+INFO:tensorflow:  ./data/tf_lcqmc.tfrecord
+I0318 17:53:24.978821 140435538694528 run_pretraining_google.py:487]   ./data/tf_lcqmc.tfrecord
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0318 17:53:25.172477 140435538694528 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7fb959e424d0>) includes params argument, but params are not passed to Estimator.
+W0318 17:53:25.172787 140435538694528 estimator.py:1984] Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7fb959e424d0>) includes params argument, but params are not passed to Estimator.
+INFO:tensorflow:Using config: {'_model_dir': './savealbert', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 2000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fb95114fed0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2), '_cluster': None}
+I0318 17:53:25.173142 140435538694528 estimator.py:209] Using config: {'_model_dir': './savealbert', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 2000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fb95114fed0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2), '_cluster': None}
+INFO:tensorflow:_TPUContext: eval_on_tpu True
+I0318 17:53:25.173293 140435538694528 tpu_context.py:209] _TPUContext: eval_on_tpu True
+WARNING:tensorflow:eval_on_tpu ignored because use_tpu is False.
+W0318 17:53:25.173370 140435538694528 tpu_context.py:211] eval_on_tpu ignored because use_tpu is False.
+INFO:tensorflow:***** Running training *****
+I0318 17:53:25.173426 140435538694528 run_pretraining_google.py:527] ***** Running training *****
+INFO:tensorflow:  Batch size = 2
+I0318 17:53:25.173470 140435538694528 run_pretraining_google.py:528]   Batch size = 2
+WARNING:tensorflow:From /home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+W0318 17:53:25.178484 140435538694528 deprecation.py:323] From /home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:From run_pretraining_google.py:394: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+W0318 17:53:25.183523 140435538694528 deprecation_wrapper.py:119] From run_pretraining_google.py:394: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From run_pretraining_google.py:432: parallel_interleave (from tensorflow.contrib.data.python.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.parallel_interleave(...)`.
+W0318 17:53:25.186246 140435538694528 deprecation.py:323] From run_pretraining_google.py:432: parallel_interleave (from tensorflow.contrib.data.python.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.parallel_interleave(...)`.
+WARNING:tensorflow:From /home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/contrib/data/python/ops/interleave_ops.py:77: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0318 17:53:25.186318 140435538694528 deprecation.py:323] From /home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/contrib/data/python/ops/interleave_ops.py:77: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From run_pretraining_google.py:449: map_and_batch_with_legacy_function (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch()
+W0318 17:53:25.198503 140435538694528 deprecation.py:323] From run_pretraining_google.py:449: map_and_batch_with_legacy_function (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch()
+WARNING:tensorflow:From run_pretraining_google.py:458: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+W0318 17:53:25.199091 140435538694528 deprecation_wrapper.py:119] From run_pretraining_google.py:458: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+WARNING:tensorflow:From run_pretraining_google.py:465: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0318 17:53:25.202219 140435538694528 deprecation.py:323] From run_pretraining_google.py:465: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:<DatasetV1Adapter shapes: {input_ids: (2, 512), input_mask: (2, 512), masked_lm_ids: (2, 51), masked_lm_positions: (2, 51), masked_lm_weights: (2, 51), next_sentence_labels: (2, 1), segment_ids: (2, 512)}, types: {input_ids: tf.int32, input_mask: tf.int32, masked_lm_ids: tf.int32, masked_lm_positions: tf.int32, masked_lm_weights: tf.float32, next_sentence_labels: tf.int32, segment_ids: tf.int32}>
+I0318 17:53:25.206943 140435538694528 run_pretraining_google.py:450] <DatasetV1Adapter shapes: {input_ids: (2, 512), input_mask: (2, 512), masked_lm_ids: (2, 51), masked_lm_positions: (2, 51), masked_lm_weights: (2, 51), next_sentence_labels: (2, 1), segment_ids: (2, 512)}, types: {input_ids: tf.int32, input_mask: tf.int32, masked_lm_ids: tf.int32, masked_lm_positions: tf.int32, masked_lm_weights: tf.float32, next_sentence_labels: tf.int32, segment_ids: tf.int32}>
+INFO:tensorflow:Calling model_fn.
+I0318 17:53:25.210684 140435538694528 estimator.py:1145] Calling model_fn.
+INFO:tensorflow:Running train on CPU
+I0318 17:53:25.210768 140435538694528 tpu_estimator.py:2965] Running train on CPU
+INFO:tensorflow:*** Features ***
+I0318 17:53:25.210925 140435538694528 run_pretraining_google.py:142] *** Features ***
+INFO:tensorflow:  name = input_ids, shape = (2, 512)
+I0318 17:53:25.210995 140435538694528 run_pretraining_google.py:144]   name = input_ids, shape = (2, 512)
+INFO:tensorflow:  name = input_mask, shape = (2, 512)
+I0318 17:53:25.211059 140435538694528 run_pretraining_google.py:144]   name = input_mask, shape = (2, 512)
+INFO:tensorflow:  name = masked_lm_ids, shape = (2, 51)
+I0318 17:53:25.211115 140435538694528 run_pretraining_google.py:144]   name = masked_lm_ids, shape = (2, 51)
+INFO:tensorflow:  name = masked_lm_positions, shape = (2, 51)
+I0318 17:53:25.211169 140435538694528 run_pretraining_google.py:144]   name = masked_lm_positions, shape = (2, 51)
+INFO:tensorflow:  name = masked_lm_weights, shape = (2, 51)
+I0318 17:53:25.211345 140435538694528 run_pretraining_google.py:144]   name = masked_lm_weights, shape = (2, 51)
+INFO:tensorflow:  name = next_sentence_labels, shape = (2, 1)
+I0318 17:53:25.211453 140435538694528 run_pretraining_google.py:144]   name = next_sentence_labels, shape = (2, 1)
+INFO:tensorflow:  name = segment_ids, shape = (2, 512)
+I0318 17:53:25.211505 140435538694528 run_pretraining_google.py:144]   name = segment_ids, shape = (2, 512)
+WARNING:tensorflow:From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:183: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0318 17:53:25.211607 140435538694528 deprecation_wrapper.py:119] From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:183: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:480: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0318 17:53:25.212409 140435538694528 deprecation_wrapper.py:119] From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:480: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:558: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+W0318 17:53:25.224725 140435538694528 deprecation_wrapper.py:119] From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:558: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+WARNING:tensorflow:From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:242: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W0318 17:53:25.974983 140435538694528 deprecation.py:323] From /home/root1/lizheng/studyspace/pretrain/albert_zh-master/modeling_google.py:242: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fb94b99b250>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fb94b99b250>>: AttributeError: module 'gast' has no attribute 'Index'
+W0318 17:53:25.991699 140435538694528 ag_logging.py:145] Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fb94b99b250>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fb94b99b250>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fb94b5cd190>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fb94b5cd190>>: AttributeError: module 'gast' has no attribute 'Index'
+W0318 17:53:26.012240 140435538694528 ag_logging.py:145] Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fb94b5cd190>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7fb94b5cd190>>: AttributeError: module 'gast' has no attribute 'Index'
+INFO:tensorflow:number of hidden group 1 to initialize
+I0318 17:53:26.045827 140435538694528 run_pretraining_google.py:187] number of hidden group 1 to initialize
+INFO:tensorflow:name bert/embeddings/word_embeddings match to bert/embeddings/word_embeddings
+I0318 17:53:26.046834 140435538694528 modeling_google.py:369] name bert/embeddings/word_embeddings match to bert/embeddings/word_embeddings
+INFO:tensorflow:name bert/embeddings/token_type_embeddings match to bert/embeddings/token_type_embeddings
+I0318 17:53:26.046899 140435538694528 modeling_google.py:369] name bert/embeddings/token_type_embeddings match to bert/embeddings/token_type_embeddings
+INFO:tensorflow:name bert/embeddings/position_embeddings match to bert/embeddings/position_embeddings
+I0318 17:53:26.046949 140435538694528 modeling_google.py:369] name bert/embeddings/position_embeddings match to bert/embeddings/position_embeddings
+INFO:tensorflow:name bert/embeddings/LayerNorm/beta match to bert/embeddings/LayerNorm/beta
+I0318 17:53:26.046993 140435538694528 modeling_google.py:369] name bert/embeddings/LayerNorm/beta match to bert/embeddings/LayerNorm/beta
+INFO:tensorflow:name bert/embeddings/LayerNorm/gamma match to bert/embeddings/LayerNorm/gamma
+I0318 17:53:26.047034 140435538694528 modeling_google.py:369] name bert/embeddings/LayerNorm/gamma match to bert/embeddings/LayerNorm/gamma
+INFO:tensorflow:name bert/encoder/embedding_hidden_mapping_in/kernel does not get matched
+I0318 17:53:26.047228 140435538694528 modeling_google.py:367] name bert/encoder/embedding_hidden_mapping_in/kernel does not get matched
+INFO:tensorflow:name bert/encoder/embedding_hidden_mapping_in/bias does not get matched
+I0318 17:53:26.047285 140435538694528 modeling_google.py:367] name bert/encoder/embedding_hidden_mapping_in/bias does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/query/kernel does not get matched
+I0318 17:53:26.047373 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/query/kernel does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/query/bias does not get matched
+I0318 17:53:26.047418 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/query/bias does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/key/kernel does not get matched
+I0318 17:53:26.047461 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/key/kernel does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/key/bias does not get matched
+I0318 17:53:26.047504 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/key/bias does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/value/kernel does not get matched
+I0318 17:53:26.047546 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/value/kernel does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/value/bias does not get matched
+I0318 17:53:26.047593 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/attention_1/self/value/bias does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/attention_1/output/dense/kernel does not get matched
+I0318 17:53:26.047636 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/attention_1/output/dense/kernel does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/attention_1/output/dense/bias does not get matched
+I0318 17:53:26.047678 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/attention_1/output/dense/bias does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/LayerNorm/beta does not get matched
+I0318 17:53:26.047719 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/LayerNorm/beta does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/LayerNorm/gamma does not get matched
+I0318 17:53:26.047764 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/LayerNorm/gamma does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/ffn_1/intermediate/dense/kernel does not get matched
+I0318 17:53:26.047806 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/ffn_1/intermediate/dense/kernel does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/ffn_1/intermediate/dense/bias does not get matched
+I0318 17:53:26.047847 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/ffn_1/intermediate/dense/bias does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/ffn_1/intermediate/output/dense/kernel does not get matched
+I0318 17:53:26.047889 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/ffn_1/intermediate/output/dense/kernel does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/ffn_1/intermediate/output/dense/bias does not get matched
+I0318 17:53:26.047930 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/ffn_1/intermediate/output/dense/bias does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/LayerNorm_1/beta does not get matched
+I0318 17:53:26.047971 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/LayerNorm_1/beta does not get matched
+INFO:tensorflow:name bert/encoder/transformer/group_0/inner_group_0/LayerNorm_1/gamma does not get matched
+I0318 17:53:26.048012 140435538694528 modeling_google.py:367] name bert/encoder/transformer/group_0/inner_group_0/LayerNorm_1/gamma does not get matched
+INFO:tensorflow:name bert/pooler/dense/kernel match to bert/pooler/dense/kernel
+I0318 17:53:26.048048 140435538694528 modeling_google.py:369] name bert/pooler/dense/kernel match to bert/pooler/dense/kernel
+INFO:tensorflow:name bert/pooler/dense/bias match to bert/pooler/dense/bias
+I0318 17:53:26.048087 140435538694528 modeling_google.py:369] name bert/pooler/dense/bias match to bert/pooler/dense/bias
+INFO:tensorflow:name cls/predictions/transform/dense/kernel match to cls/predictions/transform/dense/kernel
+I0318 17:53:26.048125 140435538694528 modeling_google.py:369] name cls/predictions/transform/dense/kernel match to cls/predictions/transform/dense/kernel
+INFO:tensorflow:name cls/predictions/transform/dense/bias match to cls/predictions/transform/dense/bias
+I0318 17:53:26.048162 140435538694528 modeling_google.py:369] name cls/predictions/transform/dense/bias match to cls/predictions/transform/dense/bias
+INFO:tensorflow:name cls/predictions/transform/LayerNorm/beta match to cls/predictions/transform/LayerNorm/beta
+I0318 17:53:26.048199 140435538694528 modeling_google.py:369] name cls/predictions/transform/LayerNorm/beta match to cls/predictions/transform/LayerNorm/beta
+INFO:tensorflow:name cls/predictions/transform/LayerNorm/gamma match to cls/predictions/transform/LayerNorm/gamma
+I0318 17:53:26.048239 140435538694528 modeling_google.py:369] name cls/predictions/transform/LayerNorm/gamma match to cls/predictions/transform/LayerNorm/gamma
+INFO:tensorflow:name cls/predictions/output_bias match to cls/predictions/output_bias
+I0318 17:53:26.048277 140435538694528 modeling_google.py:369] name cls/predictions/output_bias match to cls/predictions/output_bias
+INFO:tensorflow:name cls/seq_relationship/output_weights match to cls/seq_relationship/output_weights
+I0318 17:53:26.048314 140435538694528 modeling_google.py:369] name cls/seq_relationship/output_weights match to cls/seq_relationship/output_weights
+INFO:tensorflow:name cls/seq_relationship/output_bias match to cls/seq_relationship/output_bias
+I0318 17:53:26.048351 140435538694528 modeling_google.py:369] name cls/seq_relationship/output_bias match to cls/seq_relationship/output_bias
+INFO:tensorflow:initialize the 0th layer
+I0318 17:53:26.048390 140435538694528 run_pretraining_google.py:208] initialize the 0th layer
+INFO:tensorflow:OrderedDict([('bert/embeddings/word_embeddings', 'bert/embeddings/word_embeddings'), ('bert/embeddings/token_type_embeddings', 'bert/embeddings/token_type_embeddings'), ('bert/embeddings/position_embeddings', 'bert/embeddings/position_embeddings'), ('bert/embeddings/LayerNorm/beta', 'bert/embeddings/LayerNorm/beta'), ('bert/embeddings/LayerNorm/gamma', 'bert/embeddings/LayerNorm/gamma'), ('bert/pooler/dense/kernel', 'bert/pooler/dense/kernel'), ('bert/pooler/dense/bias', 'bert/pooler/dense/bias'), ('cls/predictions/transform/dense/kernel', 'cls/predictions/transform/dense/kernel'), ('cls/predictions/transform/dense/bias', 'cls/predictions/transform/dense/bias'), ('cls/predictions/transform/LayerNorm/beta', 'cls/predictions/transform/LayerNorm/beta'), ('cls/predictions/transform/LayerNorm/gamma', 'cls/predictions/transform/LayerNorm/gamma'), ('cls/predictions/output_bias', 'cls/predictions/output_bias'), ('cls/seq_relationship/output_weights', 'cls/seq_relationship/output_weights'), ('cls/seq_relationship/output_bias', 'cls/seq_relationship/output_bias')])
+I0318 17:53:26.048429 140435538694528 run_pretraining_google.py:209] OrderedDict([('bert/embeddings/word_embeddings', 'bert/embeddings/word_embeddings'), ('bert/embeddings/token_type_embeddings', 'bert/embeddings/token_type_embeddings'), ('bert/embeddings/position_embeddings', 'bert/embeddings/position_embeddings'), ('bert/embeddings/LayerNorm/beta', 'bert/embeddings/LayerNorm/beta'), ('bert/embeddings/LayerNorm/gamma', 'bert/embeddings/LayerNorm/gamma'), ('bert/pooler/dense/kernel', 'bert/pooler/dense/kernel'), ('bert/pooler/dense/bias', 'bert/pooler/dense/bias'), ('cls/predictions/transform/dense/kernel', 'cls/predictions/transform/dense/kernel'), ('cls/predictions/transform/dense/bias', 'cls/predictions/transform/dense/bias'), ('cls/predictions/transform/LayerNorm/beta', 'cls/predictions/transform/LayerNorm/beta'), ('cls/predictions/transform/LayerNorm/gamma', 'cls/predictions/transform/LayerNorm/gamma'), ('cls/predictions/output_bias', 'cls/predictions/output_bias'), ('cls/seq_relationship/output_weights', 'cls/seq_relationship/output_weights'), ('cls/seq_relationship/output_bias', 'cls/seq_relationship/output_bias')])
+WARNING:tensorflow:From run_pretraining_google.py:210: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+W0318 17:53:26.048505 140435538694528 deprecation_wrapper.py:119] From run_pretraining_google.py:210: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+ERROR:tensorflow:Error recorded from training_loop: Shape of variable bert/embeddings/LayerNorm/beta:0 ((128,)) doesn't match with shape of tensor bert/embeddings/LayerNorm/beta ([768]) from checkpoint reader.
+E0318 17:53:26.049241 140435538694528 error_handling.py:70] Error recorded from training_loop: Shape of variable bert/embeddings/LayerNorm/beta:0 ((128,)) doesn't match with shape of tensor bert/embeddings/LayerNorm/beta ([768]) from checkpoint reader.
+INFO:tensorflow:training_loop marked as finished
+I0318 17:53:26.049323 140435538694528 error_handling.py:96] training_loop marked as finished
+WARNING:tensorflow:Reraising captured error
+W0318 17:53:26.049370 140435538694528 error_handling.py:130] Reraising captured error
+Traceback (most recent call last):
+  File "run_pretraining_google.py", line 565, in <module>
+    tf.app.run()
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/absl/app.py", line 312, in run
+    _run_main(main, args)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/absl/app.py", line 258, in _run_main
+    sys.exit(main(argv))
+  File "run_pretraining_google.py", line 534, in main
+    estimator.train(input_fn=train_input_fn, max_steps=FLAGS.num_train_steps)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py", line 2876, in train
+    rendezvous.raise_errors()
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/tpu/error_handling.py", line 131, in raise_errors
+    six.reraise(typ, value, traceback)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py", line 2871, in train
+    saving_listeners=saving_listeners)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 367, in train
+    loss = self._train_model(input_fn, hooks, saving_listeners)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1158, in _train_model
+    return self._train_model_default(input_fn, hooks, saving_listeners)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1188, in _train_model_default
+    features, labels, ModeKeys.TRAIN, self.config)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py", line 2709, in _call_model_fn
+    config)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1146, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py", line 2967, in _model_fn
+    features, labels, is_export_mode=is_export_mode)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py", line 1549, in call_without_tpu
+    return self._call_model_fn(features, labels, is_export_mode=is_export_mode)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py", line 1867, in _call_model_fn
+    estimator_spec = self._model_fn(features=features, **kwargs)
+  File "run_pretraining_google.py", line 210, in model_fn
+    tf.train.init_from_checkpoint(init_checkpoint, assignment_map[gid])
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/training/checkpoint_utils.py", line 291, in init_from_checkpoint
+    init_from_checkpoint_fn)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/distribute/distribute_lib.py", line 1684, in merge_call
+    return self._merge_call(merge_fn, args, kwargs)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/distribute/distribute_lib.py", line 1691, in _merge_call
+    return merge_fn(self._strategy, *args, **kwargs)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/training/checkpoint_utils.py", line 286, in <lambda>
+    ckpt_dir_or_file, assignment_map)
+  File "/home/root1/lizheng/tools/anaconda3/envs/lz_tf_1.14/lib/python3.7/site-packages/tensorflow/python/training/checkpoint_utils.py", line 329, in _init_from_checkpoint
+    tensor_name_in_ckpt, str(variable_map[tensor_name_in_ckpt])
+ValueError: Shape of variable bert/embeddings/LayerNorm/beta:0 ((128,)) doesn't match with shape of tensor bert/embeddings/LayerNorm/beta ([768]) from checkpoint reader.
