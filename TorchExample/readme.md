@@ -25,6 +25,9 @@ wwm指定切词函数，生成全词id文件，利用DataCollatorForWholeWordMas
 - run_mlm_no_trainer_online_read_DDP2.py
 - run_mlm_no_trainer_online_read_DDP_span.py
 
+**注意：在 DataParallel 中，batch size 设置必须为单卡的 n 倍，但是在 DistributedDataParallel 内，batch size 设置于单卡一样即可。**
+
+
 run_mlm_no_trainer_online_read.py 采用DP方式，实现单机多卡，改动简单，修改模型
 ```
 model = torch.nn.DataParallel(model, device_ids=range(6)) #TODO 在使用net = torch.nn.DataParallel(net)之后，原来的net会被封装为新的net的module属性里。
